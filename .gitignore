@@ -1,0 +1,26 @@
+# --- Executáveis e Binários ---
+# Ignora arquivos de saída padrão do GCC no Linux
+*.out
+*.o
+*.s
+
+# Ignora executáveis sem extensão (comuns no Linux/Lubuntu)
+# Se você costuma dar nomes específicos aos seus executáveis, 
+# você pode listá-los aqui ou usar regras mais genéricas.
+/meu_programa
+/teste
+/exercicio
+
+# Caso você compile no Windows algum dia
+*.exe
+*.dll
+
+# --- Pastas de IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*.save
+
+# --- Arquivos de Log e Temporários ---
+*.log
+*.tmp
